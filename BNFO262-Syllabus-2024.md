@@ -1,6 +1,6 @@
-# CMM262: Quantitative Methods in Genetics and Genomics
+# BNFO262: Quantitative Methods in Genetics and Genomics
 **University of California, San Diego (UCSD)**<br>
-**Winter 2023**
+**Winter 2024**
 
 [![jupyterhub badge](https://img.shields.io/badge/Login%20to%20JupyterHub-grey?style=for-the-badge&logo=jupyter)](https://datahub.ucsd.edu/hub/login)
 
@@ -14,13 +14,13 @@ CMM262/BIOM262 is designed to teach experimental and analytical approaches in mo
 **Instructor:** Dr. Alon Goren (agoren@ucsd.edu)<br>
 **Teaching Assistant 1:** Daniella Vo (dtv004@ucsd.edu)<br>
 **Teaching Assistant 2:** Jeff Jaureguy (jjauregu@ucsd.edu)<br>
-**Teaching Assistant 3:** Kohan Lee (kol004@ucsd.edu)<br>
+**Teaching Assistant 3:** Ko-Han Lee (kol004@ucsd.edu)<br>
 **Teaching Assistant 4:** Tianyao Xu (tix034@ucsd.edu)<br>
 
 ### Lecturers
 As each module is taught by a separate lecturer, their contact information is provided in the syllabus table at the following Google Sheets link:
 
-https://docs.google.com/spreadsheets/d/1s-kjGqblJmk4cW-RhUNh_JHS_vk_nCP9CumVm6JsTSI
+INSERT LINK
 
 > :warning: **Note:** We will be using Piazza as our primary method of communication for this course!<br>You can join using the link sent out in our first Canvas announcement.
 
@@ -40,17 +40,17 @@ Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST.
 <img width="759" alt="Screen Shot 2023-01-26 at 10 12 56 PM" src="https://user-images.githubusercontent.com/67065808/215021503-6b6d1ea7-6466-4f59-948e-6438da33b405.png">
 
 ## Will lectures be recorded?
-Lecture recordings for each week will be posted on Friday morning. You can find recordings of the lectures here: https://drive.google.com/drive/folders/1tzSEuG0XR0Jaz7Ilp7uiImW97z7IH55n
+Lecture recordings will be posted in Canvas after class (there may be a slight delay of a couple hours due to processing).
 
 Slides for each lecture will be attached to a README.md file within each module folder.
 
 ## When are office hours?
-Office hours usually take place via Zoom from 4-5 pm on Mondays. The zoom link will be shared internally with the class on our slack!
+Office hours usually take place via Zoom from DATE/TIME. The zoom link will be shared internally with the class on Canvas!
 
 Two Mondays this quarter will be holidays. During those weeks, office hours will be held on Wednesday at 4-5pm instead. This includes:
-> Wednesday: Jan 18th 4-5pm
+> Wednesday: Jan 17th 4-5pm
 > 
-> Wednesday: Feb 22nd 4-5pm
+> Wednesday: Feb 20th 4-5pm
 
 ## Where can I access assignments?
 You will be able to find all homework assignments for this course on the github, in the `hw` directory. Exams materials will be shared via Gradescope. You will also be able to find all of the necessary materials for each assignment on the UCSD Jupyterhub (Data Science) Platform if you're officially enrolled. The Jupyterhub can be found here: https://datahub.ucsd.edu/hub/login
@@ -60,7 +60,7 @@ We'll be using Gradescope for submitting the homework assignments, as well as th
 
 1. Navigate to the Gradescope Website at https://www.gradescope.com/
 2. Select the link in the header to "Sign Up", and then select the option to sign up as a "Student"
-3. Enter the following Course Entry Code: **`BBR48B`**
+3. Enter the following Course Entry Code: **`6GE6ND`**
 4. Input your Full Name, UCSD Email, and UCSD Student ID (should be A#######);
 **Note: If you are auditing the course, please enter AUDITOR as your Student ID**
 5. Select "Sign up as Student" to complete the sign-up process, and then check the email you have provided for the link to set your password and log in information
@@ -70,11 +70,11 @@ Homework will be assigned on Thursdays and due on the following Thursday through
 
 ### When's the midterm and final?
 * **Midterm Examination:**
-  * Released on **2/16/23**
-  * Submission via Gradescope on **2/23/23** by 9:00 AM PST
+  * Released on **2/15/23**
+  * Submission via Gradescope on **2/22/23** by 9:00 AM PST
 * **Final Examination:**
-  * Released on **3/14/23**
-  * Submission via Gradescope on **3/21/23** by 11:59 PM PST
+  * Released on **3/13/23**
+  * Submission via Gradescope on **3/20/23** by 11:59 PM PST
 
 ### What's the policy on late submissions?
 If for whatever reason you cannot deliver an assignment by its associated due date, you should inform the course instructor and TAs at least a day before the due date. **For each late submission 10% of the maximal number of points is deducted for every day or part of a day that an assignment is handed in late.**
@@ -120,9 +120,9 @@ This course is designed to be highly interactive, so we greatly appreciate your 
 ### Surveys
 There will be a feedback survey posted to Canvas on Thurs at 9:00 am each week. Please fill them out by the next Tues at 9:00 am. We really value your feedback! It helps us improve the modules each year.
 
-We will allot students at most three passes to submit surveys late, by the end of the quarter. We will subtract 5% from your participation grade for every additional survey (beyond the first three) that are submitted late.
+We will allot students at most three passes to submit surveys late, by the end of the quarter. We will give half credit (2.5/5 points) for every additional survey (beyond the first three) that are submitted late.
 
-To receive late credit for a survey, you must submit it by March 17, 2023 at 11:59 pm.
+To receive late credit for a survey, you must submit it by March 16, 2023 at 11:59 pm.
 
 ## What's the policy on collaboration and plagiarism?
 Plagiarism will not be tolerated. Do not copy and paste answers from the internet, and make sure all answers on homework and exams are completely in your own words.
@@ -130,15 +130,14 @@ Plagiarism will not be tolerated. Do not copy and paste answers from the interne
 Questions may be discussed with classmates but all work must be done individually.
 
 ## What's the policy on contacting the course instructors and TAs?
-Please use office hours for questions regarding the homework assignments or take-home exams. It can be difficult, especially with code and software, to troubleshoot your problems via email or slack. If you are unable to attend office hours, you are welcome to contact the TAs with your questions via email or slack. 
+Please use office hours for questions regarding the homework assignments or take-home exams. We also strongly encourage you to post your questions on Piazza rather than emailing the TAs in case there are questions that multiple students have. If you are unable to attend office hours and have a personal question, you are welcome to contact the TAs via a private post on Piazza or through email. 
 
-> :warning: **Note:** Please make sure to include _all_ TAs in your correspondences so we can ensure that you get help as soon as possible.<br>
-> If you must email or slack regarding a question, please do not expect a response unless it is within working hours (Monday-Friday, 8:00 AM - 8:00 PM PST), otherwise, there is no guarantee you will receive a response.
+> If you must email regarding a question, please do not expect a response unless it is within working hours (Monday-Friday, 8:00 AM - 8:00 PM PST), otherwise, there is no guarantee you will receive a response.
 
 ## What's the course schedule?
 You can find the schedule of what we'll be covering day-by-day at the following Google Sheets link:
 
-https://docs.google.com/spreadsheets/d/1s-kjGqblJmk4cW-RhUNh_JHS_vk_nCP9CumVm6JsTSI
+INSERT LINK
 
 ## What if I can't log into DataHub?
 Try the suggestions in this doc and see if they help:
