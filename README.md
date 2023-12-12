@@ -8,7 +8,7 @@ Welcome to the course website for BNFO262/BGGN237: Quantitative Methods in Genet
 
 This interactive course is taught by a variety of experts in the field of genetics and genomics! These experts will go over the conceptual background behind different sequencing technologies and/or analytical techniques, as well as provide an interactive introduction to performing bioinformatics analyses in the form of `Jupyter Notebooks`. 
 
-Check out [the course syllabus](CMM262-Syllabus-2024.md) for more details.
+Check out [the course syllabus](BNFO262-Syllabus-2024.md) for more details.
 
 ## Course Schedule 
 
