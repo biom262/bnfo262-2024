@@ -5,7 +5,7 @@
 [![jupyterhub badge](https://img.shields.io/badge/Login%20to%20JupyterHub-grey?style=for-the-badge&logo=jupyter)](https://datahub.ucsd.edu/hub/login)
 
 ## What's this course about?
-CMM262/BIOM262 is designed to teach experimental and analytical approaches in modern genetics and genomics, from experimental design through data analysis in each of several topic areas. Students will come away with an intuition and basic understanding of the function of many computational tools, including their design limitations. Because this course includes computational workshops in almost every class session, it is **highly recommended** that students have previous experience in at least one of the programming languages we will use (Python, Bash, or R).
+BNFO262/BGGN237 is designed to teach experimental and analytical approaches in modern genetics and genomics, from experimental design through data analysis in each of several topic areas. Students will come away with an intuition and basic understanding of the function of many computational tools, including their design limitations. Because this course includes computational workshops in almost every class session, it is **highly recommended** that students have previous experience in at least one of the programming languages we will use (Python, Bash, or R).
 
 > :checkered_flag: <b>Note:</b> This 4-unit course is a _core requirement_ for students in the UCSD Genetics Training Program (http://genetics.ucsd.edu/).
              
