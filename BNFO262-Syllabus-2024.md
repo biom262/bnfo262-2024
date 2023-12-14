@@ -36,7 +36,7 @@ Take a look at [our course material from last year](https://github.com/biom262/c
 
 ## Where can I attend class?
 Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST in MET Upper Auditorium (Ong Family Upper Auditorium).<br>
-***Note:*** *The first class will be in a different room: Leichtag 3A05*
+> :warning: **Note:** The first class will be in a different room: Leichtag 3A05
 <!-- Note: we should update this screenshot once we've decided on a date for the final and midterm -->
 <img width="759" alt="Screen Shot 2023-01-26 at 10 12 56 PM" src="https://user-images.githubusercontent.com/67065808/215021503-6b6d1ea7-6466-4f59-948e-6438da33b405.png">
 
