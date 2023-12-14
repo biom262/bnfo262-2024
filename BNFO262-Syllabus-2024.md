@@ -5,7 +5,7 @@
 [![jupyterhub badge](https://img.shields.io/badge/Login%20to%20JupyterHub-grey?style=for-the-badge&logo=jupyter)](https://datahub.ucsd.edu/hub/login)
 
 ## What's this course about?
-BNFO262/BGGN237 is designed to teach experimental and analytical approaches in modern genetics and genomics, from experimental design through data analysis in each of several topic areas. Students will come away with an intuition and basic understanding of the function of many computational tools, including their design limitations. Because this course includes computational workshops in almost every class session, it is **highly recommended** that students have previous experience in at least one of the programming languages we will use (Python, Bash, or R).
+BNFO262/BGGN237/BIOM262 is designed to teach experimental and analytical approaches in modern genetics and genomics, from experimental design through data analysis in each of several topic areas. Students will come away with an intuition and basic understanding of the function of many computational tools, including their design limitations. Because this course includes computational workshops in almost every class session, it is **highly recommended** that students have previous experience in at least one of the programming languages we will use (Python, Bash, or R).
 
 > :checkered_flag: <b>Note:</b> This 4-unit course is a _core requirement_ for students in the UCSD Genetics Training Program (http://genetics.ucsd.edu/).
              
@@ -35,7 +35,8 @@ Take a look at [our course material from last year](https://github.com/biom262/c
 - [A book that explains how to use data science libraries in python](https://wesmckinney.com/book/)
 
 ## Where can I attend class?
-Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST.
+Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST in MET Upper Auditorium (Ong Family Upper Auditorium).
+*Note: The first class will be in a different room: Leichtag 3A05*
 <!-- Note: we should update this screenshot once we've decided on a date for the final and midterm -->
 <img width="759" alt="Screen Shot 2023-01-26 at 10 12 56 PM" src="https://user-images.githubusercontent.com/67065808/215021503-6b6d1ea7-6466-4f59-948e-6438da33b405.png">
 
@@ -47,10 +48,10 @@ Slides for each lecture will be attached to a README.md file within each module 
 ## When are office hours?
 Office hours usually take place via Zoom from DATE/TIME. The zoom link will be shared internally with the class on Canvas!
 
-Two Mondays this quarter will be holidays. During those weeks, office hours will be held on Wednesday at 4-5pm instead. This includes:
-> Wednesday: Jan 17th 4-5pm
+Two Mondays this quarter will be holidays. During those weeks, office hours will be held on Wednesday at TBD instead. This includes:
+> Wednesday: Jan 17th TBD
 > 
-> Wednesday: Feb 20th 4-5pm
+> Wednesday: Feb 20th TBD
 
 ## Where can I access assignments?
 You will be able to find all homework assignments for this course on the github, in the `hw` directory. Exams materials will be shared via Gradescope. You will also be able to find all of the necessary materials for each assignment on the UCSD Jupyterhub (Data Science) Platform if you're officially enrolled. The Jupyterhub can be found here: https://datahub.ucsd.edu/hub/login
@@ -130,14 +131,14 @@ Plagiarism will not be tolerated. Do not copy and paste answers from the interne
 Questions may be discussed with classmates but all work must be done individually.
 
 ## What's the policy on contacting the course instructors and TAs?
-Please use office hours for questions regarding the homework assignments or take-home exams. We also strongly encourage you to post your questions on Piazza rather than emailing the TAs in case there are questions that multiple students have. If you are unable to attend office hours and have a personal question, you are welcome to contact the TAs via a private post on Piazza or through email. 
+Please use office hours for questions regarding the homework assignments or take-home exams. We also strongly encourage you to post your questions on Piazza rather than emailing the TAs in case there are questions that multiple students have. If you are unable to attend office hours and have a personal question, you are welcome to contact the TAs via a private post on Piazza or through email (sent to all TAs). 
 
 > If you must email regarding a question, please do not expect a response unless it is within working hours (Monday-Friday, 8:00 AM - 8:00 PM PST), otherwise, there is no guarantee you will receive a response.
 
 ## What's the course schedule?
 You can find the schedule of what we'll be covering day-by-day at the following Google Sheets link:
 
-INSERT LINK
+https://docs.google.com/spreadsheets/d/1F10f4TpqjZ0mAGcIrSOivTD-fA1zvmjv/edit?usp=sharing&ouid=102134196267797631717&rtpof=true&sd=true
 
 ## What if I can't log into DataHub?
 Try the suggestions in this doc and see if they help:
