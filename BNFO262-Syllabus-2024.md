@@ -20,7 +20,7 @@ BNFO262/BGGN237/BIOM262 is designed to teach experimental and analytical approac
 ### Lecturers
 As each module is taught by a separate lecturer, their contact information is provided in the syllabus table at the following Google Sheets link:
 
-INSERT LINK
+https://docs.google.com/spreadsheets/d/1F10f4TpqjZ0mAGcIrSOivTD-fA1zvmjv/edit?usp=sharing&ouid=102134196267797631717&rtpof=true&sd=true
 
 > :warning: **Note:** We will be using Piazza as our primary method of communication for this course!<br>You can join using the link sent out in our first Canvas announcement.
 
