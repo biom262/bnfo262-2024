@@ -36,9 +36,10 @@ Take a look at [our course material from last year](https://github.com/biom262/c
 
 ## Where can I attend class?
 Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST in MET Upper Auditorium (Ong Family Upper Auditorium).<br>
-> :warning: **Note:** The first class will be in a different room: Leichtag 3A05
+> :warning: **Note:** The first class will be in a different room: TBD
 <!-- Note: we should update this screenshot once we've decided on a date for the final and midterm -->
-<img width="759" alt="Screen Shot 2023-01-26 at 10 12 56 PM" src="https://user-images.githubusercontent.com/67065808/215021503-6b6d1ea7-6466-4f59-948e-6438da33b405.png">
+<img width="889" alt="image" src="https://github.com/biom262/bnfo262-2024/assets/35377884/12b6503c-64e0-4dbf-9a82-6f513d94c245">
+
 
 ## Will lectures be recorded?
 Lecture recordings will be posted in Canvas after class (there may be a slight delay of a couple hours due to processing).
@@ -47,11 +48,11 @@ Slides for each lecture will be attached to a README.md file within each module 
 
 ## When are office hours?
 Office hours usually take place via Zoom from DATE/TIME. The zoom link will be shared internally with the class on Canvas!
-
+<!-- **Add if needed!**
 Two Mondays this quarter will be holidays. During those weeks, office hours will be held on Wednesday at TBD instead. This includes:
 > Wednesday: Jan 17th TBD
 > 
-> Wednesday: Feb 20th TBD
+> Wednesday: Feb 20th TBD-->
 
 ## Where can I access assignments?
 You will be able to find all homework assignments for this course on the github, in the `hw` directory. Exams materials will be shared via Gradescope. You will also be able to find all of the necessary materials for each assignment on the UCSD Jupyterhub (Data Science) Platform if you're officially enrolled. The Jupyterhub can be found here: https://datahub.ucsd.edu/hub/login
@@ -71,11 +72,11 @@ Homework will be assigned on Thursdays and due on the following Thursday through
 
 ### When's the midterm and final?
 * **Midterm Examination:**
-  * Released on **2/15/23**
-  * Submission via Gradescope on **2/22/23** by 9:00 AM PST
+  * Released on **2/15/24**
+  * Submission via Gradescope on **2/22/24** by 9:00 AM PST
 * **Final Examination:**
-  * Released on **3/13/23**
-  * Submission via Gradescope on **3/20/23** by 11:59 PM PST
+  * Released on **3/13/24**
+  * Submission via Gradescope on **3/20/24** by 11:59 PM PST
 
 ### What's the policy on late submissions?
 If for whatever reason you cannot deliver an assignment by its associated due date, you should inform the course instructor and TAs at least a day before the due date. **For each late submission 10% of the maximal number of points is deducted for every day or part of a day that an assignment is handed in late.**
