@@ -36,8 +36,8 @@ Take a look at [our course material from last year](https://github.com/biom262/c
 
 ## Where can I attend class?
 Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST in MET Upper Auditorium (Ong Family Upper Auditorium).<br>
-> :warning: **Note:** The first class will be in a different room: TBD
-<img width="718" alt="image" src="https://github.com/biom262/bnfo262-2024/assets/35377884/c61bb4fe-4c5f-4372-af25-4ea64cf78aa0">
+> :warning: **Note:** The first class will be in a different room: MET143
+<img width="720" alt="image" src="https://github.com/biom262/bnfo262-2024/assets/35377884/58723978-41b7-492b-a9f3-120c12e40d8e">
 
 
 ## Will lectures be recorded?
