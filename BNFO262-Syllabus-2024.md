@@ -37,8 +37,7 @@ Take a look at [our course material from last year](https://github.com/biom262/c
 ## Where can I attend class?
 Classes are on Tuesday and Thursday from 9:00 AM - 11:50 AM PST in MET Upper Auditorium (Ong Family Upper Auditorium).<br>
 > :warning: **Note:** The first class will be in a different room: TBD
-<!-- Note: we should update this screenshot once we've decided on a date for the final and midterm -->
-<img width="889" alt="image" src="https://github.com/biom262/bnfo262-2024/assets/35377884/12b6503c-64e0-4dbf-9a82-6f513d94c245">
+<img width="718" alt="image" src="https://github.com/biom262/bnfo262-2024/assets/35377884/c61bb4fe-4c5f-4372-af25-4ea64cf78aa0">
 
 
 ## Will lectures be recorded?
