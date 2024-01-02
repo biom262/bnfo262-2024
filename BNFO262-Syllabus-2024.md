@@ -46,7 +46,7 @@ Lecture recordings will be posted in Canvas after class (there may be a slight d
 Slides for each lecture will be attached to a README.md file within each module folder.
 
 ## When are office hours?
-Office hours usually take place via Zoom from DATE/TIME. The zoom link will be shared internally with the class on Canvas!
+Office hours usually take place via Zoom from DATE/TIME. The Zoom link will be shared internally with the class on Canvas!
 <!-- **Add if needed!**
 Two Mondays this quarter will be holidays. During those weeks, office hours will be held on Wednesday at TBD instead. This includes:
 > Wednesday: Jan 17th TBD
