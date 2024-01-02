@@ -2,7 +2,7 @@
 
 [![jupyterhub badge](https://img.shields.io/badge/Login%20to%20JupyterHub-grey?style=for-the-badge&logo=jupyter)](https://datahub.ucsd.edu/hub/login)
 
-Welcome to the course website for BNFO262/BGGN237: Quantitative Methods in Genetics and Genomics! 
+Welcome to the course website for BNFO262/BGGN237/BIOM262: Quantitative Methods in Genetics and Genomics! 
 
 ## Course Organization
 
