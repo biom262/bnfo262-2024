@@ -1,0 +1,234 @@
+---
+title: "Statistics Module - Day 1"
+output:
+  html_document:
+    df_print: paged
+---
+
+# CMM262: Statistics, Day 2 - Part 1 - Distributions 
+
+
+```{r}
+library(ggplot2)
+library(palmerpenguins)
+```
+
+
+### Exercise 3 - Discrete Distributions - Binomial Distribution
+
+R has many built-in functions for working with distributions. These generally follow these conventions:
+
+* Probability Density Functions (PDFs and PMFs) - start with 'd' for 'density'.
+
+* Cumulative Distribution Functions (CDFs) start with 'p' for 'probability'.
+
+* Quantile Functions start with q. 
+
+* Functions to generate random values from a distribution start with 'r' for random.
+
+Let's learn how to use these functions in the context of the binomial distribution. The binomial distribution describes the number of 'successes' (k) observed from n Bernoulli trials.
+
+Let's plot the binomial PMF using parameters: n=10 and p=0.1.
+
+```{r}
+n = 10
+k = seq(0, n, by=1)
+p = 0.1
+y = dbinom(k, n, p)
+
+binom.pmf <- data.frame(k=k, mass=y)
+
+ggplot(binom.pmf,  aes(k, mass)) + geom_point(color="blue", size=3) + theme_bw(base_size=22)
+```
+
+Now let's plot the binomial PMF for n=15, and p=0.5.
+
+```{r}
+n = 15
+p=0.5
+k = seq(0, n, by=1)
+y = dbinom(k, n, p)
+
+binom.pmf <- data.frame(k=k, mass=y)
+
+ggplot(binom.pmf,  aes(k, mass)) + geom_point(color="blue", size=3) + theme_bw(base_size=22)
+```
+
+Now let's randomly sample from the binomial distribution with the same parameters as above.
+
+```{r}
+num.samples <- 100
+k <- rbinom(num.samples, 15, 0.5)
+
+# Plot a histogram of the random sample
+hist(k, breaks=10)
+```
+
+Revisiting the penguin dataset from last class, how many male penguins are there in our sample?
+
+```{r}
+library(palmerpenguins)
+
+# remove samples where sex is unknown
+penguins <- penguins[!is.na(penguins$sex),]
+
+
+n.male = sum(penguins$sex == "male")
+n.female = sum(penguins$sex == "female")
+n.penguin = n.male + n.female
+
+cat("There are", n.male, "male and", n.female, "female penguins" )
+```
+
+Assuming proportion parameter for male/female is 50%, what is the probability of observing exactly this number of male penguins in our sample?
+
+```{r}
+dbinom(n.male, n.penguin, 0.5)
+```
+
+Let's plot the theoretical probability density function for the sample of n penguins, assuming p=0.5
+
+```{r}
+n = n.penguin
+p=0.5
+k = seq(0, n, by=1)
+y = dbinom(k, n, p)
+
+binom.pmf <- data.frame(k=k, mass=y)
+
+ggplot(binom.pmf,  aes(k, mass)) + geom_point(color="blue", size=3) + theme_bw(base_size=22)
+```
+
+Is it surprising that we observed this many male penguins? How might we test this? 
+
+
+### Exercise X - Central Limit Theorem
+
+Let's assume that the entire population of penguins are the ones in our dataset, and that we are only able to obtain small samples of penguins for research purposes.
+
+We are going to focus on the body mass of the penguins for this exercise. Let's limit ourselves to the set of penguins which have a measurement for this trait.
+
+```{r}
+# remove rows where body mass is not defined
+penguins <- penguins[!is.na(penguins$body_mass_g),]
+```
+
+Let's first take a look at the population distribution
+
+```{r}
+ggplot(data=penguins, aes(body_mass_g)) + geom_histogram(binwidth = 100)
+```
+
+The data do not look all that normal. But that's OK! What is the population mean?
+
+```{r}
+mean(penguins$body_mass_g)
+```
+
+
+Now let's pretend that our study is not very well funded and we are only able to sample and weigh 10 penguins from the population each expedition. 
+
+```{r}
+samp.size = 10
+samp.mass = sample(penguins$body_mass_g, samp.size)
+mean(samp.mass)
+```
+
+The Central Limit Theorem says that sample means taken in this way should be normally distributed around the true population mean. And that this distribution should have standard deviation equal to the population standard deviation / sqrt(sample size). 
+
+Let's test this idea out by repeating our sampling process 1000 times and looking at the resulting distribution of sample means.
+
+```{r}
+samp.size = 10
+samp.means = c()
+for(i in 1:1000) {
+  samp.mass = sample(penguins$body_mass_g, samp.size)
+  samp.means[i] = mean(samp.mass)
+}
+```
+
+Now let's look at the histogram of sample means. Does it line up with the theoretical distribution?
+
+```{r}
+
+# compute theoretical normal distribution with mean equal to pop. mean, and stdev equal to S.E.
+standard.err = sd(penguins$body_mass_g) / sqrt(samp.size)
+x = seq(min(penguins$body_mass_g), max(penguins$body_mass_g), by=10)
+predicted.density = dnorm(x, mean=mean(penguins$body_mass_g), sd=standard.err)
+
+# make a histogram of the sample means
+hist(samp.means, breaks=30, freq=F)
+
+# draw a curve of the theoretical distribution over top
+lines(x, predicted.density, col="red")
+```
+
+Pretty cool! What if we had a larger budget and we could sample 40 penguins each expedition? This should reduce the standard error about 2 fold (sqrt(40)/sqrt(10) = 2).
+
+```{r}
+samp.size = 40
+samp.means = c()
+for(i in 1:1000) {
+  samp.mass = sample(penguins$body_mass_g, samp.size)
+  samp.means[i] = mean(samp.mass)
+}
+# compute theoretical normal distribution with mean equal to pop. mean, and stdev equal to S.E.
+standard.err = sd(penguins$body_mass_g) / sqrt(samp.size)
+x = seq(min(penguins$body_mass_g), max(penguins$body_mass_g), by=10)
+predicted.density = dnorm(x, mean=mean(penguins$body_mass_g), sd=standard.err)
+
+# make a histogram of the sample means
+hist(samp.means, breaks=30, freq=F)
+
+# draw a curve of the theoretical distribution over top
+lines(x, predicted.density, col="red")
+```
+
+
+
+# Excercise - Hypothesis Testing
+
+We want to test whether the mass of adelie and chinstrap penguins differ.
+
+First, let's compute a z-score for the difference in means.
+
+```{r}
+adelie.mean = mean(penguins$body_mass_g[penguins$species=="Adelie"] )
+adelie.sd = sd(penguins$body_mass_g[penguins$species=="Adelie"])
+adelie.n = sum(penguins$species=="Adelie")
+
+chinstrap.mean = mean(penguins$body_mass_g[penguins$species=="Chinstrap"] )
+chinstrap.sd = sd(penguins$body_mass_g[penguins$species=="Chinstrap"])
+chinstrap.n = sum(penguins$species=="Chinstrap")
+
+z = (adelie.mean - chinstrap.mean) / sqrt((adelie.sd**2)/adelie.n + (chinstrap.sd**2)/chinstrap.n)
+z
+```
+
+What fraction of the standard normal distribution is to the left of this z-score?
+```{r}
+pnorm(z, mean=0, sd=1)
+```
+
+What fraction of the standard normal distribution is to the right of -z?
+```{r}
+pnorm(-z, mean=0, sd=1, lower.tail=F)
+```
+
+The distribution is symmetric, so we could have just multiplied by 2 ;)
+```{r}
+p.value = pnorm(z, mean=0, sd=1)*2
+cat("The p-value from the two-sided two-sample z-test is", p.value)
+```
+
+We fail to reject the null hypothesis.
+
+What about if we use a t-test instead?
+
+```{r}
+t.test(penguins$body_mass_g[penguins$species=="Adelie"],
+       penguins$body_mass_g[penguins$species=="Chinstrap"])
+```
+
+Note that the t-statistic is very similar to the z-statistic and so are the p-values. T-tests are very similar to z-tests for large sample sizes (n). They are most important to use (instead of z-tests) when sample sizes are small.
+
