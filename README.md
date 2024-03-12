@@ -24,4 +24,4 @@ Check out [the course syllabus](BNFO262-Syllabus-2024.md) for more details.
 | 8    | Feb 27  | **[Module 8](module-8-variantcalling):** Variant Calling                         | Kyle Gaulton                                 | [Homework 3](hw/hw3) (due 3/7)                                       |
 | 9    | Mar 5   | **[Module 9](module-9-imgproc-spatialtx):** Image Processing and Spatial Transcriptomics                               | Johannes Schöneberg<br>Colin Kern + Quan Zhu                                | None                                       |
 | 10   | Mar 12  | **[Module 10](module-10-popgen):** Population Genetics                           | Tiffany Amariuta             | None                                       |
-| 11   | Mar 18  | <i>Finals Week</i>                                                               | -                                            | **Take-Home Final** (due 3/20 at 11:59 pm) |
+| 11   | Mar 18  | <i>Finals Week</i>                                                               | -                                            | **Take-Home Final** (due 3/19 at 11:59 pm) |
