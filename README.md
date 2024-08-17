@@ -10,6 +10,18 @@ This interactive course is taught by a variety of experts in the field of geneti
 
 Check out [the course syllabus](BNFO262-Syllabus-2024.md) for more details.
 
+## Course Lecture Videos for 2024 Quarter
+
+Welcome to the course lecture repository for the 2024 quarter. This repository contains essential resources, assignments, and materials for the course. Below, you’ll find the link to the OneDrive folder that hosts all the lecture videos for this quarter.
+
+### Lecture Videos
+
+The lecture videos for the 2024 quarter are organized into modules 1 through 10. Each module covers different topics relevant to the course, providing in-depth explanations and insights.
+
+You can access the lecture videos for the 2024 quarter by clicking the link below:
+
+[**OneDrive: 2024 Quarter Lecture Videos**](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/jjauregu_ucsd_edu/Eixrb6oCEQJErgBWJxxlZRUB2xWxFU2NRrrj8vHT7qL6Tw)
+
 ## Course Schedule 
 
 | Week | Starting Date | Topic                                                                            | Lecturer(s)                                  |  Homework Released                         |
